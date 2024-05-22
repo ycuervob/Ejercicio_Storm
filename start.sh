@@ -1,0 +1,1 @@
+export JAVA_HOME=/usr/lib/jvm/jdk-11-oracle-x64 && /app/apache-zookeeper-3.8.4-bin/bin/zkServer.sh start-foreground & /app/apache-storm-2.6.2/bin/storm nimbus & /app/apache-storm-2.6.2/bin/storm supervisor & /app/apache-storm-2.6.2/bin/storm ui
